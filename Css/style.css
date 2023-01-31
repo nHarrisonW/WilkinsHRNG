@@ -2,7 +2,7 @@ html { background-color: #075a56;}
 
 #head-container {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #EFE9C3;
+    color: #DDA146;
     background-color: #132449;
     height: 265px;
     width: 100%;
@@ -85,6 +85,9 @@ a {
         font-size: 35px;
     }
     
+    #name-button:hover {
+        background-color: #DDA146;
+    }
 }
 
 @media only screen and (min-width: 1440px)  {
@@ -93,4 +96,5 @@ a {
         padding-right: 30px;
     }
 }
+
 /* #EFE9C3  text color */
