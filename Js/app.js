@@ -28,7 +28,7 @@ nameButton.addEventListener('click', function () {
 })
 
 function GetName() {
-    fetch('../data/data.json').then(response => response.json())
+    fetch('./data/data.json').then(response => response.json())
     .then(data => {
         names = data.allNames[Math.floor(Math.random() * 35)].firstName;
         nameOne.textContent = names;
